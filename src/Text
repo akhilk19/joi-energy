@@ -1,0 +1,51 @@
+SOME REST API QUESTIONS AND DESIGNING TASKS
+
+
+bookmyshow.com/movies/get-all-movies
+
+{
+    moviesList: [
+        {
+            movieName: "",
+            movieGenre: "",
+            movieId: "",
+            cast:[
+                {
+                    role:
+                    name:
+                    actorId:
+                    actor_url: www.bookmyshow.com/actors/actor-id
+                }
+            ]
+        }
+    ]
+}
+
+
+
+Movie
+
+Final apis framed, after discussion
+www.bookmyshow.com/movies
+www.bookmyshow.com/movies/spider-man/comments/comment-id
+
+
+www.bookmyshow.com/actors
+www.bookmyshow.com/actors/actor-id
+
+
+Before discussion API's
+Get https://www.bookmyshow.com/movies/?actorId={}
+
+postRequest - request
+
+{
+    namePerson:
+    movieId:
+    role:
+    actorId:
+}
+
+response : {
+
+}
